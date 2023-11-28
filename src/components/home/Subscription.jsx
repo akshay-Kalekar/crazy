@@ -3,7 +3,7 @@ import React from "react";
 const Subscription = () => {
   return (
     <div className="flex justify-center my-2 ">
-      <div className="bg-green-300  w-4/5 flex flex- flex-wrap items-center justify-center gap-2 p-2 rounded-sm">
+      <div className="border border-black bg-green-400 shadow-lg shadow-black w-4/5 flex flex- flex-wrap items-center justify-center gap-2 p-2 rounded-sm">
         <div className="join-item text-white font-medium text-center ">
           Get Started in 30 Seconds
         </div>

@@ -18,11 +18,11 @@ const text5 = ` It is free to sign up and list your services on eZ. eZ charges a
 
 const text6 = ` eZ has a support team available to assist with any issues that may arise during the selling process. We also have a dispute resolution process in place to help resolve conflicts between buyers and sellers.`;
 
-const panelClasses = `bg-red border-b-4 font-bold text-md border-black-200 rounded shadow-md hover:shadow-lg mb-4 p-4 font-bold`
-const textStyle = "text-gray-600 text-sm text-left w-full pl-2"
+const panelClasses = `bg-red border-b-4 font-bold text-md xl:text-lg border-black-200 rounded shadow-md hover:shadow-lg mb-2 p-4 font-bold`
+const textStyle = "text-gray-600 text-sm xl:text-md text-left w-full pl-2"
 const NewsFAQ = () => {
   return (
-    <div className=" px-[0rem] py-24 w-full  ">
+    <div className=" px-[0rem] w-full  ">
       <div className="flex flex-col md:flex-row p-8">
       <h1
       className=" flex font-bold  mb-[2rem] leading-tight text-3xl sm:hidden">

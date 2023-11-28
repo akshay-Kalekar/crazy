@@ -21,8 +21,8 @@ const text4 = `No more managing multiple links or portfolios. With eZ One-Link, 
 const text5 = `No more managing multiple links or portfolios. With eZ One-Link, consolidate all your profiles –Easily connect social media, work platforms, and more – into a single, high-converting landing page.
 `;
 
-const panelClasses = "bg-white border-b-4 text-bold text-md border-black-200 rounded shadow-md hover:shadow-lg mb-4 p-4 font-bold"
-const desStyle = "text-gray-600 text-sm inside-content text-left pl-2"
+const panelClasses = "bg-white border-b-4 text-bold text-md lg:text-lg border-black-200 rounded shadow-md hover:shadow-lg mb-4 p-4 font-bold"
+const desStyle = "text-gray-600 text-sm lg:text-md inside-content text-left pl-2"
 const iconStyle = {
   width: "19.51px",
   height: "19.51px",
