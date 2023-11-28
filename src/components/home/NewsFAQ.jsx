@@ -76,7 +76,7 @@ const NewsFAQ = () => {
         </div>
         
         <div className="w-full md:w-1/2 hidden sm:block pt-4">
-          <div className="md:p-[5%] gap-4  ">
+          <div className="md:p-[5%] gap-4 text-black ">
             <h1
               className=" flex font-bold  mb-[2rem] leading-tight text-3xl md:text-4xl xl:text-6xl
 	"
