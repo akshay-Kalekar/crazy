@@ -50,7 +50,7 @@ const Service = () => {
     </div>
     </div>
 
-    <div className='my-4 text-3xl font-semibold text-black'>Struggling with <span className='text-green-300'>
+    <div className='my-4 mx-8 text-2xl font-bold text-black'>Struggling with <span className='text-green-300'>
     UI / UX</span> Get Specialized help from experts !!! </div>
     <button className=" my-4 btn btn-primary max-w-xs bg-green-400 hover:bg-white shadow-sm shadow-black "> <img src={ArrowRight} className="max-w-[2rem]  rounded-full shadow-2xl"/>Explore Marketplace  </button>
     </div>
