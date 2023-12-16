@@ -9,6 +9,7 @@ import './index.css'
 import Home from './pages/home.jsx';
 import MarketPlace from './pages/MarketPlace.jsx';
 import Navbar from './components/navbar/navbar.jsx';
+import SellerRegistration from './pages/SellerRegistration.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,9 @@ const router = createBrowserRouter([
     },{
       path:"marketplace",
       element: <MarketPlace/>
+    },{
+      path:"seller",
+      element: <SellerRegistration/>
     }],
 
   },
