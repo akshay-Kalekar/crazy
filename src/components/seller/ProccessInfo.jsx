@@ -6,7 +6,7 @@ const ProccessInfo = () => {
       <h1 className="text-5xl font-bold ">
         Join the eZ revolution, and start monetizing your solutions !
       </h1>
-      <div className="m-auto w-fit ">
+      <div className="m-auto w-fit mt-16">
         <div className="flex flex-col lg:flex-row justify-between gap-8">
         {/**card1**/}
           <div className="card w-96 p-0 shadow-xl rounded-t-xl">
