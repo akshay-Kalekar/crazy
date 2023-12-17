@@ -11,6 +11,8 @@ import MarketPlace from './pages/MarketPlace.jsx';
 import Navbar from './components/navbar/Navbar.jsx';
 import SellerRegistration from './pages/SellerRegistration.jsx';
 import SellerCategory from './pages/SellerCategory.jsx';
+import { SellerOffering } from './pages/SellerOffering.jsx';
+import SellerBackground from './pages/SellerBackground.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,13 @@ const router = createBrowserRouter([
     },{
       path:"sellerCategory",
       element:<SellerCategory/>
+    },
+    {
+      path:"sellerOffering",
+      element:<SellerOffering/>
+    },{
+      path:"sellerBackground",
+      element:<SellerBackground/>
     }],
 
   },

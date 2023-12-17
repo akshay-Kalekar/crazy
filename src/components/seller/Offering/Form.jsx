@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Form = () => {
-  const questionair = [{title : "DOMAIN", lable : "Choose maximum 3"},{title:"CATEGORY", lable:"Choose the Profile Categories which describes you the best :"},{title:"JOB ROLE",lable:""},{title:"SKILLS" , lable:""}]
-    const FormInput = ({title,lable})=>{
-      return <label className="form-control w-2/5 p-8">
+  const questionair = [{title : "Choose the Service Types which you want to sell :", lable : ""},{title:"Choose the Service Categories  in which you want to sell :", lable:""},{title:"Choose the sub Categories :", lable:""}]
+    const FormInput = ({title,lable})=>{  
+
+      return <label className="form-control w-fit">
       <div className="label">
         <span className="label-text text-green-800 font-bold">{title} *</span>
         <span className="pl-8 label-text-alt">{lable}</span>
@@ -14,8 +15,8 @@ const Form = () => {
     }
   return (
     <>
-    <div>Please help us understand you better  :</div>
-    <div className='flex gap-8  flex-wrap'>
+    <h1 className='font-bold'>What are the main Services you want ot sell ?</h1>
+    <div className='flex gap-8 flex-col'>
     {
       questionair.map(({ title, lable }) => (
         <FormInput key={title} title={title} lable={lable} />
