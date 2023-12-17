@@ -6,10 +6,11 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import Home from './pages/home.jsx';
+import Home from './pages/Home.jsx';
 import MarketPlace from './pages/MarketPlace.jsx';
-import Navbar from './components/navbar/navbar.jsx';
+import Navbar from './components/navbar/Navbar.jsx';
 import SellerRegistration from './pages/SellerRegistration.jsx';
+import SellerCategory from './pages/SellerCategory.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,9 @@ const router = createBrowserRouter([
     },{
       path:"seller",
       element: <SellerRegistration/>
+    },{
+      path:"sellerCategory",
+      element:<SellerCategory/>
     }],
 
   },
