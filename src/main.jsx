@@ -13,6 +13,7 @@ import SellerRegistration from './pages/SellerRegistration.jsx';
 import SellerCategory from './pages/SellerCategory.jsx';
 import { SellerOffering } from './pages/SellerOffering.jsx';
 import SellerBackground from './pages/SellerBackground.jsx';
+import { Book_Session } from './components/Book_Session.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,7 +38,11 @@ const router = createBrowserRouter([
     },{
       path:"sellerBackground",
       element:<SellerBackground/>
-    }],
+    },{
+      path:"book-session",
+      element:<Book_Session/>
+    }
+  ],
 
   },
 ]);
